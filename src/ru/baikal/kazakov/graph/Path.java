@@ -47,7 +47,13 @@ class Path<T> {
 
     /** Split this path for each edge in the list */
     List<Path<T>> split(List<Edge<T>> edges){
-        return edges.stream().map(edge -> new Path<>(this).add(edge)).collect(Collectors.toList());
+        return
+                edges.
+                        stream().
+                        map(edge ->
+                                new Path<>(this).add(edge)
+                        ).
+                        collect(Collectors.toList());
     }
 
     /** Check is this path ends with the vertex */

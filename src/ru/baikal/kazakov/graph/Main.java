@@ -46,8 +46,9 @@ public class Main {
         graph.addEdge(v9, v10);
         graph.addEdge(v10, v7);
         graph.addEdge(v10, v11);
+        graph.addEdge(v6, v8);
 
-        System.out.println(graph.getPath(v0, v11));
+        System.out.println(graph.getPath(v1, v11));
     }
 }
 
