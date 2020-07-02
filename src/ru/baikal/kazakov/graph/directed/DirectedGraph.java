@@ -1,4 +1,4 @@
-package ru.baikal.kazakov.graph.direct;
+package ru.baikal.kazakov.graph.directed;
 
 import ru.baikal.kazakov.graph.Graph;
 import ru.baikal.kazakov.graph.Vertex;
