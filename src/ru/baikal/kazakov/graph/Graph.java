@@ -64,7 +64,7 @@ public abstract class Graph<T> {
                 if (path.endsWith(v2))
                     return path.getEdges();
 
-                //find all not processed edges which runs from the last vertex of the current path
+                //find all not processed edges which accessed from last vertex of current path
                 List<Edge<T>> newEdges = fromVertexMap.getOrDefault(path.getLastVertex(), new ArrayList<>()).stream().filter(edge -> {
                     if (!processedEdges.contains(edge)) {
                         processedEdges.add(edge);
