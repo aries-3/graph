@@ -1,2 +1,2 @@
 # graph
-main-method is in ru.baikal.kazakov.graph.Main class
+main-class: ru.baikal.kazakov.graph.Main

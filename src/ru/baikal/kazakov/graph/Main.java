@@ -35,7 +35,6 @@ public class Main {
         graph.addEdge(v0, v1);
         graph.addEdge(v1, v2);
         graph.addEdge(v2, v3);
-        graph.addEdge(v2, v3);
         graph.addEdge(v1, v4);
         graph.addEdge(v4, v5);
         graph.addEdge(v4, v6);
