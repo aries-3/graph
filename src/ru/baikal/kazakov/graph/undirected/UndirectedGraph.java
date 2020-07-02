@@ -28,7 +28,7 @@ public class UndirectedGraph<T> extends Graph<T> {
             throw new IllegalArgumentException("Graph does not contain vertex " + v2);
 
         //create new undirected edge
-        Edge<T> e = new UndirectedEdge<>(v1,v2);
+        Edge<T> e = new UndirectedEdge<>(v1, v2);
 
         //put the edge to the map for vertex v1
         fromVertexMap.

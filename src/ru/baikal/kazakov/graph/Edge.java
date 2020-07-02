@@ -13,7 +13,6 @@ public abstract class Edge<T> {
     protected Edge(Vertex<T> v1, Vertex<T> v2){
         this.v1 = v1;
         this.v2 = v2;
-
     }
 
     /** Get another vertex of the edge */

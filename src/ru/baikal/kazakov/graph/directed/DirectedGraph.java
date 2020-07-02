@@ -1,7 +1,9 @@
 package ru.baikal.kazakov.graph.directed;
 
+import ru.baikal.kazakov.graph.Edge;
 import ru.baikal.kazakov.graph.Graph;
 import ru.baikal.kazakov.graph.Vertex;
+import ru.baikal.kazakov.graph.undirected.UndirectedEdge;
 
 import java.util.ArrayList;
 
@@ -26,7 +28,10 @@ public class DirectedGraph<T> extends Graph<T> {
         if(!vertices.contains(v2))
             throw new IllegalArgumentException("Graph does not contain vertex " + v2);
 
+        //create new directed edge
+        Edge<T> e = new DirectedEdge<>(v1, v2);
+
         //create new directed edge and put it to the map for vertex v1
-        this.fromVertexMap.computeIfAbsent(v1, k -> new ArrayList<>()).add(new DirectedEdge<>(v1, v2));
+        this.fromVertexMap.computeIfAbsent(v1, k -> new ArrayList<>()).add(e);
     }
 }

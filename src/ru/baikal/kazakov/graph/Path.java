@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 /**
  * Path in graph from start vertex to last vertex
  * */
-public class Path<T> {
+class Path<T> {
     /** List of edges from startVertex to lastVertex */
     private final List<Edge<T>> edges;
 
@@ -24,13 +24,9 @@ public class Path<T> {
     }
 
     private Path(Path<T> path){
-        this(path.edges, path.startVertex, path.lastVertex);
-    }
-
-    private Path(List<Edge<T>> edges, Vertex<T> startVertex, Vertex<T> lastVertex){
-        this.edges = new ArrayList<>(edges);
-        this.startVertex = startVertex;
-        this.lastVertex = lastVertex;
+        this.edges = new ArrayList<>(path.edges);
+        this.startVertex = path.startVertex;
+        this.lastVertex = path.lastVertex;
     }
 
     /** Add edge to the path */
