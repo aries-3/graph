@@ -28,10 +28,10 @@ public abstract class Graph<T> {
         this.vertices.add(v);
     }
 
-    //abstract method for add the vertex between two vertexes
+    //abstract method for add the edge between two vertexes
     public abstract void addEdge(Vertex<T> v1, Vertex<T> v2);
 
-    //find path between two vertextes
+    //find path between two vertexes
     public List<Edge<T>> getPath(Vertex<T> v1, Vertex<T> v2){
         //if the graph does not contain v1 or v2 returns empty list
         if(!vertices.contains(v1) || !vertices.contains(v2))
@@ -48,6 +48,7 @@ public abstract class Graph<T> {
 
         //add empty path from start vertex
         nextStepPaths.add(new Path<>(v1));
+
         for(;;) {
             //flag for breaking the circle
             boolean hasNewPaths = false;
