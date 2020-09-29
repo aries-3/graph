@@ -3,6 +3,7 @@ package ru.baikal.kazakov.graph;
 /**
  * Vertex
  *
+ * qqq
  * */
 public class Vertex<T> {
     private final T value;
