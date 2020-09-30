@@ -2,10 +2,7 @@ package ru.baikal.kazakov.graph;
 
 import ru.baikal.kazakov.graph.directed.DirectedGraph;
 
-/***/
 public class Main {
-
-    /***/
     public static void main(String[] args) {
         //Graph<Integer> graph = new UndirectedGraph<>();
         Graph<Integer> graph = new DirectedGraph<>();
@@ -35,13 +32,12 @@ public class Main {
         graph.addVertex(v10);
         graph.addVertex(v11);
 
-
-
         graph.addEdge(v0, v1);
         graph.addEdge(v1, v2);
         graph.addEdge(v2, v3);
         graph.addEdge(v1, v4);
 
+        //master added
 
 
         graph.addEdge(v4, v5);
