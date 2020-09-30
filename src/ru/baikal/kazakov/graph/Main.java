@@ -1,5 +1,7 @@
 package ru.baikal.kazakov.graph;
 
+//master
+
 import ru.baikal.kazakov.graph.directed.DirectedGraph;
 
 public class Main {
