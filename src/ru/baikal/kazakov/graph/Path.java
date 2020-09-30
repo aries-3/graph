@@ -1,5 +1,7 @@
 package ru.baikal.kazakov.graph;
 
+//TEST
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
