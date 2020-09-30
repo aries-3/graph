@@ -2,6 +2,7 @@ package ru.baikal.kazakov.graph;
 
 //master
 //master2
+//master3
 import ru.baikal.kazakov.graph.directed.DirectedGraph;
 
 public class Main {
