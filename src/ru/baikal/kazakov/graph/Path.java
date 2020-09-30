@@ -1,6 +1,7 @@
 package ru.baikal.kazakov.graph;
 
 //TEST
+//test 2
 
 import java.util.ArrayList;
 import java.util.List;

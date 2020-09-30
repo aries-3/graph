@@ -6,7 +6,13 @@ package ru.baikal.kazakov.graph;
 //master4
 import ru.baikal.kazakov.graph.directed.DirectedGraph;
 
+
+
+
+/***/
 public class Main {
+
+    /***/
     public static void main(String[] args) {
         //Graph<Integer> graph = new UndirectedGraph<>();
         Graph<Integer> graph = new DirectedGraph<>();
