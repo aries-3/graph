@@ -2,6 +2,8 @@ package ru.baikal.kazakov.graph;
 
 //TEST
 //test 2
+//test 3
+//test 4
 
 import java.util.ArrayList;
 import java.util.List;
