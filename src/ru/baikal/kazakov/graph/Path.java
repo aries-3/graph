@@ -2,8 +2,11 @@ package ru.baikal.kazakov.graph;
 
 //TEST
 //test 2
+<<<<<<< HEAD
 //test 3
 //test 4
+=======
+>>>>>>> f66cd14749838e08e04b72cf3c6506b9940833bb
 
 import java.util.ArrayList;
 import java.util.List;
